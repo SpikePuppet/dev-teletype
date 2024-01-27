@@ -1,4 +1,4 @@
-[tool.poetry]
+ [tool.poetry]
 name = "dev-teletype"
 version = "0.1.0"
 description = "A fun way to take notes in your terminal, and save them as markup!"
@@ -8,6 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pendulum = "^3.0.0"
 
 
 [build-system]
